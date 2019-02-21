@@ -1,4 +1,4 @@
-(defproject ventas-slider-plugin "0.1.0"
+(defproject ventas-slider-plugin "0.1.1-SNAPSHOT"
   :description "Slider plugin for ventas"
 
   :url "https://github.com/joelsanchez/ventas-slider-plugin"
