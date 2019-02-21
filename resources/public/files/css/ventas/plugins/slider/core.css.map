@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "src/scss/ventas/plugins/slider/core.css",
+	"sources": [
+		"src/scss/ventas/plugins/slider/core.scss",
+		"src/scss/ventas/plugins/slider/core.scss/JSASS_CUSTOM.scss"
+	],
+	"sourcesContent": [
+		"\n.slider {\n    position: relative;\n    height: 350px;\n\n    button {\n        position: absolute;\n        top: 0;\n        bottom: 0;\n        margin: auto;\n        height: 50px;\n        width: 50px;\n        background-color: white;\n        border-radius: 4px;\n        font-size: 10px;\n        border: 0;\n    }\n}\n\n.slider__left {\n    left: 15px;\n}\n\n.slider__right {\n    right: 15px;\n}\n\n.slider__slides {\n    position: relative;\n    transition: all 300ms;\n    height: 100%;\n    width: 1000%;\n}\n\n.slider__slide {\n    display: inline-block;\n    width: 100vw;\n    background-position: center;\n    background-size: cover;\n    height: 100%;\n    position: relative;\n    img {\n        height: 100%;\n    }\n}",
+		"$jsass-void: jsass_import_stack_push(1) !global;\n"
+	],
+	"mappings": "AACA,AAAA,OAAO,AAAC,CACJ,QAAQ,CAAE,QAAS,CACnB,MAAM,CAAE,KAAM,CAcjB,AAhBD,AAII,OAJG,CAIH,MAAM,AAAC,CACH,QAAQ,CAAE,QAAS,CACnB,GAAG,CAAE,CAAE,CACP,MAAM,CAAE,CAAE,CACV,MAAM,CAAE,IAAK,CACb,MAAM,CAAE,IAAK,CACb,KAAK,CAAE,IAAK,CACZ,gBAAgB,CAAE,KAAM,CACxB,aAAa,CAAE,GAAI,CACnB,SAAS,CAAE,IAAK,CAChB,MAAM,CAAE,CAAE,CACb,AAGL,AAAA,aAAa,AAAC,CACV,IAAI,CAAE,IAAK,CACd,AAED,AAAA,cAAc,AAAC,CACX,KAAK,CAAE,IAAK,CACf,AAED,AAAA,eAAe,AAAC,CACZ,QAAQ,CAAE,QAAS,CACnB,UAAU,CAAE,SAAU,CACtB,MAAM,CAAE,IAAK,CACb,KAAK,CAAE,KAAM,CAChB,AAED,AAAA,cAAc,AAAC,CACX,OAAO,CAAE,YAAa,CACtB,KAAK,CAAE,KAAM,CACb,mBAAmB,CAAE,MAAO,CAC5B,eAAe,CAAE,KAAM,CACvB,MAAM,CAAE,IAAK,CACb,QAAQ,CAAE,QAAS,CAItB,AAVD,AAOI,cAPU,CAOV,GAAG,AAAC,CACA,MAAM,CAAE,IAAK,CAChB",
+	"names": []
+}
