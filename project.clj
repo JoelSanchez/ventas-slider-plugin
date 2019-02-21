@@ -14,7 +14,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
   :dependencies [[org.clojure/clojure "1.9.0" :exclusions [org.clojure/spec.alpha]]
-                 [ventas-core "0.0.12"]
+                 [ventas-core "0.0.13"]
                  ;; transitive
                  [org.apache.commons/commons-compress "1.9"]]
 
@@ -36,10 +36,14 @@
          :source-map true
          :output-style :compressed}
 
-  :repositories {"releases" {:url "https://clojars.org/repo"
-                             :sign-releases false}
-                 "snapshots" {:url "https://clojars.org/repo"
-                              :sign-releases false}}
+  :deploy-repositories {"releases" {:url "https://clojars.org/repo"
+                                    :sign-releases false
+                                    :username :env
+                                    :password :env}
+                        "snapshots" {:url "https://clojars.org/repo"
+                                     :sign-releases false
+                                     :username :env
+                                     :password :env}}
 
   :profiles {:dev {:repl-options {:init-ns repl
                                   :port 4001
