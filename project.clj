@@ -36,6 +36,11 @@
          :source-map true
          :output-style :compressed}
 
+  :repositories {"releases" {:url "https://clojars.org/repo"
+                             :sign-releases false}
+                 "snapshots" {:url "https://clojars.org/repo"
+                              :sign-releases false}}
+
   :profiles {:dev {:repl-options {:init-ns repl
                                   :port 4001
                                   :nrepl-middleware [cider.piggieback/wrap-cljs-repl]
